@@ -23,6 +23,7 @@ function addHTML() {
         }
         xhttp.open("GET", file, true);
         xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhttp.setRequestHeader('Access-Control-Allow-Methods', '*');
         xhttp.setRequestHeader('Access-Control-Allow-Headers', 'Content-Type');
         xhttp.send();
         return;
@@ -31,6 +32,3 @@ function addHTML() {
   }
 
   addHTML();
-
-  
-              
